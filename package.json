@@ -30,6 +30,8 @@
     "awesome-phonenumber": "^2.64.0",
     "anime-wallpaper": "^1.0.2",
     "api-dylux": "^1.4.4",
+    "abu-bot": "^2.4.0",
+        "acrcloud": "^1.4.0",
     "axios": "^0.24.0",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
@@ -90,6 +92,7 @@
     "util": "^0.12.4",
     "yargs": "^17.2.1",
     "youtube-yts": "^2.0.0",
+    "ytdl-secktor": "^0.0.1-development",
     "ytdl-core": "^4.11.4",
     "youtubedl-core": "^4.11.4"
   },
