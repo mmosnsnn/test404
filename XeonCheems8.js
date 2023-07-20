@@ -246,7 +246,7 @@ const setting = db.settings[botNumber]
 console.error(err)
 }
 
-if (!XeonBotInc.public) {
+if (!XeonBotInc.private) {
 if (!m.key.fromMe) return
 }
 
