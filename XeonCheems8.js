@@ -246,7 +246,7 @@ const setting = db.settings[botNumber]
 console.error(err)
 }
 
-if (!XeonBotInc.private) {
+if (!XeonBotInc.public) {
 if (!m.key.fromMe) return
 }
 
@@ -268,7 +268,7 @@ xeonverifieduser.push(sender)
 fs.writeFileSync('./database/user.json', JSON.stringify(xeonverifieduser, null, 2))
 }
 
-XeonBotInc.sendPresenceUpdate('unavailable', from)
+XeonBotInc.sendPresenceUpdate('available', from)
 
 for (let jid of mentionUser) {
 let user = global.db.users[jid]
